@@ -1,0 +1,121 @@
+.green {
+  color: #12635c;
+}
+.menu {
+  display: none;
+}
+.header_container {
+  display: flex;
+  padding: 10px;
+  background-color: #c0c0c047;
+  box-shadow: 0px 1px 9px #0000005e;
+}
+.container_title {
+  text-align: center;
+  font-family: "roboto";
+  text-shadow: 0px 1px 7px black;
+}
+.header img {
+  width: 80px;
+  height: 80px;
+  margin: 0 10px;
+}
+.header_container-title {
+  font-size: 28px;
+  color: #003f76;
+}
+.heaer_container-subtittle {
+  margin-top: -15px;
+  font-size: 12px;
+}
+.hero {
+  display: grid;
+  height: 300px;
+  align-items: center;
+  justify-items: center;
+  padding: 10px 20px;
+  grid-template-rows: auto 100px;
+  background-color: #1b262c;
+}
+.hero_container-description p {
+  font-family: "Merriweather";
+  color: white;
+  text-align: center;
+  grid-row: 1;
+  text-shadow: -4px 3px 4px #4e6359;
+}
+.hero i {
+  color: white;
+  font-size: 50px;
+}
+.toro {
+  color: #59dfad;
+  font-weight: bold;
+}
+.button-wa {
+  font-family: "Merriweather";
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+  text-decoration: none;
+  box-sizing: border-box;
+  height: 40px;
+  background-color: rgb(60, 179, 76);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.formulario {
+  padding: 10px 20px;
+  background-color: #c0c0c047;
+  font-family: "Merriweather";
+  font-size: bold;
+}
+.formulario h2 {
+  text-align: center;
+}
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 5px;
+  border: none;
+  margin: 10px 0px;
+}
+.formulario input[type="submit"] {
+  background-color: rgb(60, 179, 76);
+}
+.footer {
+  padding: 10px 20px;
+  background-color: #1b262c;
+}
+.footer_container {
+  display: grid;
+  padding: 10px 20px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 200px 50px;
+}
+.footer_container-redes {
+  grid-row: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer_container-redes a {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+}
+.footer_container-map {
+  display: flex;
+  justify-content: center;
+}
+.footer_container-descripcion {
+  display: flex;
+  justify-content: center;
+  color: #4e6359;
+}
+.footer_container-descripcion a {
+  color: #a0ffd2;
+  text-decoration: none;
+}
