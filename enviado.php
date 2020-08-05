@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php
 
   $nombre_archivo = $_FILES ['archivo']['name'];
@@ -70,7 +70,7 @@ $mail = @mail($to, $subject, $message, $headers, $returnpath);
 
 //Estado de envío de correo electrónico
 echo $mail?"<h1>Correo enviado.</h1>":"<h1>El envío de correo falló.</h1>";
-=======
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -115,4 +115,4 @@ echo $mail?"<h1>Correo enviado.</h1>":"<h1>El envío de correo falló.</h1>";
     </footer>
 </body>
 </html>
->>>>>>> 588c976a8fd5773307308743120731da025d1acc
+
