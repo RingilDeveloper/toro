@@ -4,8 +4,14 @@
 .menu {
   display: none;
 }
+<<<<<<< HEAD
 .header {
   background-color: rgba(192, 192, 192, 0.278);
+=======
+
+.header {
+  background-color: #c0c0c047;
+>>>>>>> 588c976a8fd5773307308743120731da025d1acc
   box-shadow: 0px 1px 9px #0000005e;
 }
 .header_container {
@@ -124,7 +130,10 @@
 @media (min-width: 800px) {
   .button-wa {
     width: 80%;
+<<<<<<< HEAD
     font-size: 25px;
+=======
+>>>>>>> 588c976a8fd5773307308743120731da025d1acc
   }
   .formulario input[type="submit"] {
     width: 80%;
